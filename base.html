@@ -9,40 +9,54 @@
 <header class="header">
     <div class="container header-content">
         <div class="logo-area">
-            <img src="logo.png" alt="Kayscape Logo" class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Kayscape Logo" class="logo">
+            </a>
         </div>
-        <nav class="nav-center">
-            <ul class="nav-links">
-                <li><a href="#" class="active">Жилье</a></li>
-                <li><a href="#">Впечатления</a></li>
-                <li><a href="#">Услуги</a></li>
-            </ul>
-        </nav>
+
+        <div class="header-center">
+            
+            <div class="search-bar-full">
+                <nav class="nav-center">
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="active">Жилье</a></li>
+                        <li><a href="experiences.html">Впечатления</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                    </ul>
+                </nav>
+                <div class="search-bar">
+                    <div class="search-item">
+                        <span class="label">Где</span>
+                        <input type="text" placeholder="Поиск направлений">
+                    </div>
+                    <div class="search-item">
+                        <span class="label">Когда</span>
+                        <input type="text" placeholder="Добавить даты">
+                    </div>
+                    <div class="search-item">
+                        <span class="label">Кто</span>
+                        <input type="text" placeholder="Кто едет?">
+                    </div>
+                    <button class="search-btn-round">🔍</button>
+                </div>
+            </div>
+
+            <div class="search-bar-small" style="display: none;">
+                <button class="small-search-btn">Искать везде</button>
+                <span class="divider">|</span>
+                <button class="small-search-btn">Любые даты</button>
+                <span class="divider">|</span>
+                <button class="small-search-btn">Кто едет?</button>
+                <div class="search-icon-pink">🔍</div>
+            </div>
+            
+        </div>
+
         <div class="nav-right">
             <div class="profile-menu">
                 <span class="burger">☰</span>
                 <span class="avatar">👤</span>
             </div>
-        </div>
-    </div>
-
-    <div class="search-wrapper">
-        <div class="nav-search">
-            <div class="search-field">
-                <label for="search-where" class="search-label">Где?</label>
-                <input type="text" placeholder="Поиск направлений" id="search-where">
-            </div>
-            <div class="divider"></div>
-            <div class="search-field">
-                <label for="search-checkin" class="search-label">Когда?</label>
-                <input type="text" placeholder="Когда?" id="search-checkin">
-            </div>
-            <div class="divider"></div>
-            <div class="search-field">
-                <label for="search-guests" class="search-label">Кто?</label>
-                <input type="text" placeholder="Кто едет?" id="search-guests">
-            </div>
-            <button class="search-btn">🔍</button>
         </div>
     </div>
 </header>
@@ -80,6 +94,7 @@
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
                     <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
                     </svg>
+                    
                     </button>
                 </div>
 
