@@ -10,7 +10,7 @@
     <div class="container header-content">
         <div class="logo-area">
             <a href="index.html">
-                <img src="logo.png" alt="Kayscape Logo" class="logo">
+                <img src="logo.jpg" alt="Kayscape Logo" class="logo">
             </a>
         </div>
 
@@ -52,12 +52,20 @@
             
         </div>
 
-        <div class="nav-right">
-            <div class="profile-menu">
-                <span class="burger">☰</span>
-                <span class="avatar">👤</span>
-            </div>
-        </div>
+       <div class="nav-right">
+    <button class="lang-btn">🌐</button>
+    <div class="profile-menu" id="profile-menu">
+        <span class="burger">☰</span>
+    </div>
+    <div class="profile-dropdown" id="profile-dropdown" style="display: none;">
+        <a href="#" class="dropdown-link">⓪ Центр помощи</a>
+        <hr style="border: none; border-top: 1px solid #ebebeb; margin: 4px 0;">
+        <a href="#" class="dropdown-link">Пригласить хозяина</a>
+        <a href="#" class="dropdown-link">Найти второго хозяина</a>
+        <hr style="border: none; border-top: 1px solid #ebebeb; margin: 4px 0;">
+        <a href="#" class="dropdown-link">Войдите или зарегистрируйтесь</a>
+    </div>
+</div>
     </div>
 </header>
 
@@ -65,7 +73,7 @@
     <section class="properties-section" data-city="tbilisi">
         <h2 class="title">Тбилиси: популярное жилье</h2>
         <div class="properties-grid">
-<!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку --><!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку --><!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку -->
+<!-- ИСПРАВИТЬ: ВСЕМ НОРМАЛЬНЫЕ SVG-->
         <article class="property-card">
                 <div class="image-container">
                     <img src="property1.jpg" alt="Property 1" class="property-image">
@@ -1163,7 +1171,7 @@
                     </svg>
                     </button>
                 </div>
-
+            
                 <div class="property-info">
                 <h3 class="property-name">Квартира, Гент</h3>
                 <p class="price"><strong>12 623₽</strong> за 2 ночи</p>
@@ -1351,5 +1359,6 @@
 
         </footer>
 </main>
+<script src="index.js"></script>
 </body>
 </html>
