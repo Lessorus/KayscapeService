@@ -24,7 +24,7 @@
                 <div class="search-icon-pink">🔍</div>
             </div>
         </div>
-
+<!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку -->
         <div class="nav-right">
             <div class="profile-menu">
                 <span class="burger">☰</span>
@@ -37,7 +37,7 @@
 <div class="main-description">
 <div class="top-description">
 <h1 class="room-name">Hôtel Le Richemont</h1>
-
+<!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку -->
 <button class="share-btn">
     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
     <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
@@ -51,9 +51,11 @@
     В избранное
 </button>
 </div>
+<div class="main-middle-content">
 <div class="middle-description">
 <section class="photo-gallery">
     <div class="gallery-main">
+         <!-- ИСПРАВИТЬ: ДАТЬ НОРМАЛЬНЫЕ ИЗОБРАЖЕНИЯ -->
         <img src="photo1.jpg" alt="Фото 1" class="gallery-photo">
     </div>
     <div class="gallery-side">
@@ -67,13 +69,105 @@
 
 <h2 class="room-location">Гостиница, 13-й округ, Париж</h2>
 <div class="room-rating">
+     <!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку -->
     <span class="star">★</span> 4.85 
     <span class="separator">·</span> 
     <a href="#reviews" class="reviews-link">120 отзывов</a>
 </div>
 
-<aside class="booking-sidebar">
+<p class="room-description">Этот элегантный отель, расположенный в самом центре 13-го округа Парижа, отличается атмосферным вестибюлем с деревянной отделкой и комфортабельными номерами. Поднимитесь наверх на террасу, чтобы полюбоваться видами на окружающие крыши.</p>
+<hr class="description-divider">
+<div class="features-list">
+    <!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку и все ЗНАЧКи --> 
+    <a href="https://www.google.com/maps/..." target="_blank" class="feature-item">
+        <div class="feature-icon">📍</div> 
+        <div class="feature-text">
+            <strong>10 минут до Азиатского квартала</strong>
+            <p>В нескольких минутах ходьбы в этом оживленном районе находятся лапшичные,
+                рестораны с хого и чайные
+            </p>
+        </div>
+    </a>
+
+    <div class="feature-item">
+        <div class="feature-icon">🍳</div>
+        <div class="feature-text">
+            <strong>Завтрак за отдельную плату</strong>
+            <p>Горячие напитки, выпечка, фруктовый салат,сыр,мясная нарезка и йогурт 
+                ждут вас на ежедневном "шведском столе".
+            </p>
+        </div>
+    </div>
+     <div class="feature-item">
+        <div class="feature-icon">🚇</div>
+        <div class="feature-text">
+            <strong>Удобно добираться до метро</strong>
+            <p>До станции "Олимпиад" 5 минут пешком, от нее  можно добраться до Лувра, 
+                Лионского вокзала и других достопримечательностей Парижа.
+            </p>
+        </div>
+    </div>
+    </div>
+     <!-- ДОДЕЛАТЬ ЭТУ ЧАСТЬ -->
+    <section class="room-selection">
+    <h3 class="room-selection__title">Выберите номер</h3>
+    
+    <div class="room-card-preview">
+        <img src="room-preview.jpg" alt="Пример номера" class="room-card-preview__img">
+        <div class="room-card-preview__info">
+            <h4>Трехместный номер</h4>
+            <p>1 двуспальная кровать · 17 кв. м</p>
+            <span class="room-card-preview__price">103 454₽ за 5 ночей</span>
+        </div>
+    </div>
+
+    <button class="show-all-btn">Показать все номера (9)</button>
+    </section>
+    <hr class="description-divider">
+    <section class="room-amenities">
+    <h2 class="amenities-title">Удобства в гостинице</h2>
+    
+    <div class="amenities-grid">
+        <div class="amenity-item">
+            <span class="amenity-icon">📶</span>
+            <span class="amenity-text">Wi-Fi</span>
+        </div>
+        <div class="amenity-item">
+            <span class="amenity-icon">🚗</span>
+            <span class="amenity-text">Платная парковка на территории</span>
+        </div>
+        <div class="amenity-item">
+            <span class="amenity-icon">❄️</span>
+            <span class="amenity-text">Кондиционер</span>
+        </div>
+        <div class="amenity-item">
+            <span class="amenity-icon">📺</span>
+            <span class="amenity-text">ТВ</span>
+        </div>
+        <div class="amenity-item">
+            <span class="amenity-icon">💼</span>
+            <span class="amenity-text">Рабочая зона</span>
+        </div>
+        <div class="amenity-item">
+            <span class="amenity-icon">💨</span>
+            <span class="amenity-text">Фен</span>
+        </div>
+        <div class="amenity-item">
+            <span class="amenity-icon">☕</span>
+            <span class="amenity-text">Кофеварка</span>
+        </div>
+        <div class="amenity-item">
+            <span class="amenity-icon">🧳</span>
+            <span class="amenity-text">Можно оставить багаж</span>
+        </div>
+    </div>
+
+    <button class="amenities-show-all">Показать все удобства: 18</button>
+    </section>
+</div>
+    <aside class="booking-sidebar">
     <div class="booking-widget__bonus">
+         <!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку -->
         <svg class="booking-widget__bonus-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://w3.org">  
          <path d="M8 1L1 8L8 15..." fill="currentColor"/>
   </svg>
@@ -105,47 +199,431 @@
                     </div>
                 </div>
             </dialog>
+            <div class="booking-card__fields-group">
+            
+                <div class="booking-card__dates-row">
+                    <button type="button" class="booking-card__field-btn booking-card__field-btn--half">
+                        <span class="booking-card__field-label">ПРИБЫТИЕ</span>
+                        <span class="booking-card__field-value booking-card__field-value--placeholder">Укажите дату</span>
+                    </button>
+
+                    <button type="button" class="booking-card__field-btn booking-card__field-btn--half">
+                        <span class="booking-card__field-label">ВЫЕЗД</span>
+                        <span class="booking-card__field-value booking-card__field-value--placeholder">Укажите дату</span>
+                    </button>
+
+                    <button type="button" class="booking-card__field-btn booking-card__field-btn--full">
+                        <span class="booking-card__field-label">ДЛЯ КОГО</span>
+                        <span class="booking-card__field-value booking-card__field-value--placeholder">Укажите количество гостей</span>
+                              <!-- ИСПРАВИТЬ: Полный и корректный адрес xmlns, чтобы браузер прочитал иконку -->
+                          <svg class="booking-card__chevron-icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://w3.org">
+                            <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                    </button>
+                </div>
+            </div>
+                
+        <div class="calendar-modal__body">
+        <div class="calendar-modal__months-layout">
+
+            <!-- ДВА РАЗНЫХ ДИВА С КУЧЕЙ КНОПОКвнутри -->
+            
+            <!-- МЕСЯЦ 1: МАЙ -->
+            <div class="calendar-month">
+                <h5 class="calendar-month__title">Май 2026</h5>
+                <div class="calendar-month__weeks-header">
+                    <span>П</span><span>В</span><span>С</span><span>Ч</span><span>П</span><span>С</span><span>В</span>
+                </div>
+                <!-- Куча кнопок-чисел -->
+                <div class="calendar-month__days-grid">
+                    <!-- Неактивные прошлые дни -->
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>1</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>2</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>3</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>4</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>5</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>6</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>7</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>8</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>9</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>10</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>11</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>12</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>13</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>14</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>15</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--disabled" disabled>16</button>
+
+                    <!-- ...пропущенные кнопки чисел... -->
+                    
+                    <!-- Выбранный день (старт диапазона) -->
+                    <button type="button" class="calendar-month__day calendar-month__day--selected-start">18</button>
+                    
+                    <!-- Дни внутри диапазона (с серой подложкой) -->
+                    <button type="button" class="calendar-month__day calendar-month__day--in-range">19</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--in-range">20</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--in-range">21</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--in-range">22</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--in-range">23</button>
+                    <button type="button" class="calendar-month__day calendar-month__day--in-range">24</button>
+                    
+                    
+                    <!-- Выбранный день (конец диапазона) -->
+                    <button type="button" class="calendar-month__day calendar-month__day--selected-end">25</button>
+                    
+                    <!-- Обычные доступные дни -->
+                    <button type="button" class="calendar-month__day">26</button>
+                    <button type="button" class="calendar-month__day">27</button>
+                    <button type="button" class="calendar-month__day">28</button>
+                    <button type="button" class="calendar-month__day">29</button>
+                    <button type="button" class="calendar-month__day">30</button>
+                    <button type="button" class="calendar-month__day">31</button>
+                </div>
+            </div>
 
             
+            <div class="calendar-month">
+                <h5 class="calendar-month__title">Июнь 2026</h5>
+                <div class="calendar-month__weeks-header">
+                    <span>П</span><span>В</span><span>С</span><span>Ч</span><span>П</span><span>С</span><span>В</span>
+                </div>
+                <div class="calendar-month__days-grid">
+                    <button type="button" class="calendar-month__day">1</button>
+                    <button type="button" class="calendar-month__day">2</button>
+                    <button type="button" class="calendar-month__day">3</button>
+                    <button type="button" class="calendar-month__day">4</button>
+                    <button type="button" class="calendar-month__day">5</button>
+                    <button type="button" class="calendar-month__day">6</button>
+                    <button type="button" class="calendar-month__day">7</button>
+                    <button type="button" class="calendar-month__day">8</button>
+                    <button type="button" class="calendar-month__day">9</button>
+                    <button type="button" class="calendar-month__day">10</button>
+                    <button type="button" class="calendar-month__day">11</button>
+                    <button type="button" class="calendar-month__day">12</button>
+                    <button type="button" class="calendar-month__day">13</button>
+                    <button type="button" class="calendar-month__day">14</button>
+                    <button type="button" class="calendar-month__day">15</button>
+                    <button type="button" class="calendar-month__day">16</button>
+                    <button type="button" class="calendar-month__day">17</button>
+                    <button type="button" class="calendar-month__day">18</button>
+                    <button type="button" class="calendar-month__day">19</button>
+                    <button type="button" class="calendar-month__day">20</button>
+                    <button type="button" class="calendar-month__day">21</button>
+                    <button type="button" class="calendar-month__day">22</button>
+                    <button type="button" class="calendar-month__day">23</button>
+                    <button type="button" class="calendar-month__day">24</button>
+                    <button type="button" class="calendar-month__day">25</button>
+                    <button type="button" class="calendar-month__day">26</button>
+                    <button type="button" class="calendar-month__day">27</button>
+                    <button type="button" class="calendar-month__day">28</button>
+                    <button type="button" class="calendar-month__day">29</button>
+                    <button type="button" class="calendar-month__day">30</button>
+                </div>
+            </div>
+
+        </div>
+                                                                <!-- ПОЗЖЕ ДОДЕЛАТЬ РАЗМЕТКУ С КЛАВОЙ И КНОПКАМИ -->
+                    <div class="calendar-modal__footer">
+                        <div class="calendar-modal__footer-left">
+                        <button class="calendar-modal__footer-btn calendar-modal__footer-btn--keyboard">⌨️</button>
+
+                        <dialog class="keyboard-shortcuts">
+                            <h6 class="keyboard-shortcuts__title">Сочетания клавиш</h6>
+                        </dialog>
+                        </div>
+                        <button class="calendar-modal__footer-btn calendar-modal__footer-btn--apply">Сбросить даты</button>
+                        <button class="calendar-modal__footer-btn calendar-modal__footer-btn--apply">Закрыть</button>
+                    </div>
+                </div>
+
+                <button class="booking-card__submit-btn">Выбрать номер</button>
+                <p class="booking-card__disclaimer">Пока вы ни за что не платите</p>
+
+                <!-- ПОЗЖЕ ДОДЕЛАТЬ РАЗМЕТКУ С КНОПКОЙ ПОЖАЛОВАТЬСЯ НА ОБЪЯВЛЕНИЕ -->
+            </div>
         </div>
 </aside>
-    </div>
-
-<p class="room-description">Этот элегантный отель, расположенный в самом центре 13-го округа Парижа, отличается атмосферным вестибюлем с деревянной отделкой и комфортабельными номерами. Поднимитесь наверх на террасу, чтобы полюбоваться видами на окружающие крыши.</p>
+</div>
 <hr class="description-divider">
-<div class="features-list">
-    <a href="https://www.google.com/maps/..." target="_blank" class="feature-item">
-        <div class="feature-icon">📍</div> 
-        <div class="feature-text">
-            <strong>10 минут до Азиатского квартала</strong>
-            <p>В нескольких минутах ходьбы в этом оживленном районе находятся лапшичные,
-                рестораны с хого и чайные
-            </p>
-        </div>
-    </a>
+<div class="footer-description">
+    <h6 class="footer-description__title">Где вы будете</h6>
+    <span class="footer-description__subtitle">Hôtel Le Richemont</span>
+    <span class="footer-description__subtitle">17 Rue Jean Colly, 75013, Париж, Франция</span>
 
-    <div class="feature-item">
-        <div class="feature-icon">🍳</div>
-        <div class="feature-text">
-            <strong>Завтрак за отдельную плату</strong>
-            <p>Горячие напитки, выпечка, фруктовый салат,сыр,мясная нарезка и йогурт 
-                ждут вас на ежедневном "шведском столе".
-            </p>
+    <div class="footer-description__map">
+         <!-- ИСПРАВИТЬ: ВСТАВИТЬ НОРМАЛЬНУЮ КАРТУ -->
+        <img src="map-placeholder.jpg" alt="Карта расположения" class="footer-description__map-img">
+    </div>
+<hr class="description-divider">
+<section class="reviews-section">
+    <div class="reviews-header">
+        <h2 class="reviews-title">
+            <span class="star">★</span> 4,66 · 164 отзыва
+        </h2>
+        <a href="#" class="reviews-system-link">Как устроена система отзывов</a>
+    </div>
+
+    <div class="ratings-grid">
+        <div class="rating-item">
+            <span class="rating-label">Общая оценка</span>
+            <div class="rating-visual-group">
+                <div class="rating-bar-container">
+                    <div class="rating-bar-fill" style="width: 95%;"></div>
+                </div>
+                <span class="rating-value">4.8</span>
+            </div>
+        </div>
+
+        <div class="rating-item">
+            <span class="rating-label">Чистота</span>
+            <div class="rating-visual-group">
+                <div class="rating-bar-container">
+                    <div class="rating-bar-fill" style="width: 96%;"></div>
+                </div>
+                <span class="rating-value">4,8</span>
+            </div>
+        </div>
+
+        <div class="rating-item">
+            <span class="rating-label">Точность</span>
+            <div class="rating-visual-group">
+                <div class="rating-bar-container">
+                    <div class="rating-bar-fill" style="width: 94%;"></div>
+                </div>
+                <span class="rating-value">4,7</span>
+            </div>
+        </div>
+
+        <div class="rating-item">
+            <span class="rating-label">Прибытие</span>
+            <div class="rating-visual-group">
+                <div class="rating-bar-container">
+                    <div class="rating-bar-fill" style="width: 96%;"></div>
+                </div>
+                <span class="rating-value">4,8</span>
+            </div>
+        </div>
+
+        <div class="rating-item">
+            <span class="rating-label">Общение</span>
+            <div class="rating-visual-group">
+                <div class="rating-bar-container">
+                    <div class="rating-bar-fill" style="width: 92%;"></div>
+                </div>
+                <span class="rating-value">4,6</span>
+            </div>
+        </div>
+
+        <div class="rating-item">
+            <span class="rating-label">Местоположение</span>
+            <div class="rating-visual-group">
+                <div class="rating-bar-container">
+                    <div class="rating-bar-fill" style="width: 94%;"></div>
+                </div>
+                <span class="rating-value">4,7</span>
+            </div>
         </div>
     </div>
-     <div class="feature-item">
-        <div class="feature-icon">🚇</div>
-        <div class="feature-text">
-            <strong>Удобно добираться до метро</strong>
-            <p>До станции "Олимпиад" 5 минут пешком, от нее  можно добраться до Лувра, 
-                Лионского вокзала и других достопримечательностей Парижа.
+
+    <div class="reviews-list-container">
+        
+        <article class="review-card">
+            <header class="review-card__header">
+                <img src="user-avatar-1.jpg" alt="Ghislane" class="review-card__avatar">
+                <div class="review-card__user-meta">
+                    <span class="review-card__name">Ghislane</span>
+                    <span class="review-card__location">Франция</span>
+                </div>
+            </header>
+            
+            <div class="review-card__info">
+                <div class="review-card__rating">★★★☆☆</div>
+                <span class="review-card__date">3 недели назад</span>
+                <span class="separator">·</span>
+                <span class="review-card__stay-duration">Срок аренды — несколько ночей</span>
+                <a href="room-1.html" class="review-card__room-link">Двухместный номер повышенной комфортности</a>
+            </div>
+
+            <p class="review-card__text">
+                Пожалуйста, обращайте внимание на точность фотографий, размещенных для показанных номеров...
             </p>
+            <button class="review-card__more-btn">Показать еще</button>
+        </article>
+
+        <article class="review-card">
+            <header class="review-card__header">
+                <img src="user-avatar-2.jpg" alt="Helena" class="review-card__avatar">
+                <div class="review-card__user-meta">
+                    <span class="review-card__name">Helena</span>
+                    <span class="review-card__location">5 лет на Kayscape</span>
+                </div>
+            </header>
+            
+            <div class="review-card__info">
+                <div class="review-card__rating">★★★★★</div>
+                <span class="review-card__date">март 2026г.</span>
+                <span class="separator">·</span>
+                <span class="review-card__stay-duration">Срок аренды — несколько ночей</span>
+                <a href="room-2.html" class="review-card__room-link">Двухместный номер «Комфорт»</a>
+            </div>
+
+            <p class="review-card__text">
+                Хотя во время заселения произошла небольшая неприятность, все остальное было идеально...
+            </p>
+            <button class="review-card__more-btn">Показать еще</button>
+        </article>
+
+        <article class="review-card">
+            <header class="review-card__header">
+                <img src="user-avatar-3.jpg" alt="Daryna" class="review-card__avatar">
+                <div class="review-card__user-meta">
+                    <span class="review-card__name">Daryna</span>
+                    <span class="review-card__location">6 месяцев на Kayscape</span>
+                </div>
+            </header>
+            
+            <div class="review-card__info">
+                <div class="review-card__rating">★★★★★</div>
+                <span class="review-card__date">6 месяцев назад</span>
+                <span class="separator">·</span>
+                <span class="review-card__stay-duration">Срок аренды — 1 ночь</span>
+                <a href="room-2.html" class="review-card__room-link">Двухместный номер «Комфорт»</a>
+            </div>
+
+            <p class="review-card__text">
+                Все было чудово
+            </p>
+        </article>
+
+        
+        <article class="review-card">
+            <header class="review-card__header">
+                <img src="user-avatar-4.jpg" alt="Gevorg" class="review-card__avatar">
+                <div class="review-card__user-meta">
+                    <span class="review-card__name">Gevorg</span>
+                    <span class="review-card__location">12 лет на Kayscape</span>
+                </div>
+            </header>
+            
+            <div class="review-card__info">
+                <div class="review-card__rating">★★★★</div>
+                <span class="review-card__date">3 недели назад</span>
+                <span class="separator">·</span>
+                <span class="review-card__stay-duration">Срок аренды — несколько ночей</span>
+                <a href="room-2.html" class="review-card__room-link">Улучшенный двухместный номер для гостей с ограниченной...</a>
+            </div>
+
+            <p class="review-card__text">
+                Персонал очень дружелюбный, спасибо им. Девушка из
+                На ресепшене очень добрые люди.
+                Мне досталась комната для маломобильных гостей, не ...
+            </p>
+        </article>
+            <button class="review-card__more-btn">Показать еще</button>
+    </div>
+
+    <button class="show-all-reviews-btn">Показать все 164 отзыва</button>
+</section>
+<hr class="description-divider">
+<section class="important-info">
+    <h2 class="important-info__title">Важная информация</h2>
+
+    <div class="important-info__container">
+        <div class="info-column">
+            <div class="info-column__icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display:block;height:24px;width:24px;fill:none;stroke:currentColor;stroke-width:2;overflow:visible;"><path d="M16 2l14 7v7c0 8.837-7.163 16-14 16S2 25.837 2 17V9l14-7z"></path></svg>
+            </div>
+            <span class="info-column__label">Требования к бронированию</span>
+            <p class="info-column__text">18+ для бронирования. Требуется удостоверение личности с фотографией и банковская карта. Номера для 100% некурящих.</p>
+            <a href="#" class="info-column__link">Подробнее</a>
+        </div>
+
+        <div class="info-column">
+            <div class="info-column__icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display:block;height:24px;width:24px;fill:none;stroke:currentColor;stroke-width:2;overflow:visible;"><path d="M16 2a10 10 0 1 0 10 10A10 10 0 0 0 16 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zM24.29 22.29l-3.58-3.58a1 1 0 0 0-1.42 0l-1.58 1.58a1 1 0 0 0 0 1.42l3.58 3.58a1 1 0 0 0 1.42 0l1.58-1.58a1 1 0 0 0 0-1.42z"></path></svg>
+            </div>
+            <span class="info-column__label">Правила гостиницы</span>
+            <p class="info-column__text">Прибытие после 15:00. Выезд до 12:00. Нельзя с питомцами.</p>
+            <a href="#" class="info-column__link">Подробнее</a>
+        </div>
+
+        <div class="info-column">
+            <div class="info-column__icon">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display:block;height:24px;width:24px;fill:none;stroke:currentColor;stroke-width:2;overflow:visible;"><path d="M28 32H4V4h9.333l1.334-2h2.666l1.334 2H28v28zM6 30h20V6H17.333l-1.333-2h-2l-1.333 2H6v24z"></path></svg>
+            </div>
+            <span class="info-column__label">Безопасность и жилье</span>
+            <p class="info-column__text">Выберите номер, чтобы посмотреть информацию о безопасности и жилье.</p>
         </div>
     </div>
-</div>
-</div>
-</div>
+</section>
+ <!-- ДОДЕЛАТЬ ЭТУ ЧАСТЬ В БУДУЩЕМ ДОБАВИТЬ НОРМАЛЬНЫЕ SVG ДЛЯ СОЦ ССЫЛОК И ИСПРАВИТЬ ДЕФОЛТНЫЕ ЗНАЧКИ-->
+<footer class="main-footer">
+     <section class="footer-links-grid">
+            <div class="footer-column">
+                <h4 class="footer-column-title">Поддержка</h4>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Центр помощи</a></li>
+                    <li><a href="#" class="footer-link">Помощь: проблема с безопасностью</a></li>
+                    <li><a href="#" class="footer-link">KaysCover</a></li>
+                    <li><a href="#" class="footer-link">Борьба с дискриминацией</a></li> 
+                    <li><a href="#" class="footer-link">Отмена в период пандемии</a></li>
+                    <li><a href="#" class="footer-link">Сообщить о проблеме в районе</a></li>
+                </ul>
+            </div>
 
+            <div class="footer-column">
+                <h4 class="footer-column-title">Прием гостей</h4>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Сдайте жилье на Kayscape</a></li>
+                    <li><a href="#" class="footer-link">KaysCover для хозяев</a></li>
+                    <li><a href="#" class="footer-link">Материалы для хозяев</a></li>
+                    <li><a href="#" class="footer-link">Форум сообщества</a></li>
+                    <li><a href="#" class="footer-link">Ответственный прием гостей</a></li>
+                    <li><a href="#" class="footer-link">Бесплатный урок для хозяев</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-column-title">Kayscape</h4>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Пресс-центр</a></li>
+                    <li><a href="#" class="footer-link">Карьера в Kayscape</a></li>
+                    <li><a href="#" class="footer-link">Для инвесторов</a></li>
+                    <li><a href="#" class="footer-link">Прием гостей на Kayscape.org</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="footer-divider">
+
+        <section class="footer-bottom">
+            <div class="footer-bottom-left">
+                <span class="copyright">© 2026 Kayscape, Inc.</span>
+                <span class="dot">·</span>
+                <a href="#" class="footer-bottom-link">Конфиденциальность</a>
+                <span class="dot">·</span>
+                <a href="#" class="footer-bottom-link">Условия</a>
+                <span class="dot">·</span>
+                <a href="#" class="footer-bottom-link">Реквизиты компании</a>
+            </div>
+
+            <div class="footer-bottom-right">
+                <div class="footer-controls">
+                    <button class="footer-control-btn">🌐 Русский (RU)</button>
+                    <button class="footer-control-btn">₽ RUB</button>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">VK</a>
+                    <a href="#">TW</a>
+                    <a href="#">IG</a>
+                </div>
+            </div>
+        </section>
+    
+</footer>
+</div>
 
 
 </body>

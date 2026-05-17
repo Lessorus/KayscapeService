@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayscape — Впечатления</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container header-content">
+        <div class="logo-area">
+            <a href="index.html">
+                <img src="logo.png" alt="Kayscape Logo" class="logo">
+            </a>
+        </div>
+
+        <div class="header-center">
+            <div class="search-bar-full">
+                <nav class="nav-center">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Жилье</a></li>
+                        <li><a href="experiences.html" class="active">Впечатления</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                    </ul>
+                </nav>
+                <div class="search-bar">
+                    <div class="search-item">
+                        <span class="label">Где</span>
+                        <input type="text" placeholder="Введите город или место">
+                    </div>
+                    <div class="search-item">
+                        <span class="label">Когда</span>
+                        <input type="text" placeholder="Когда?">
+                    </div>
+                    <div class="search-item">
+                        <span class="label">Кто</span>
+                        <input type="text" placeholder="Кто едет?">
+                    </div>
+                    <button class="search-btn-round">🔍</button>
+                </div>
+            </div>
+
+            <div class="search-bar-small" style="display: none;">
+                <button class="small-search-btn">Искать везде</button>
+                <span class="divider">|</span>
+                <button class="small-search-btn">Любые даты</button>
+                <span class="divider">|</span>
+                <button class="small-search-btn">Кто едет?</button>
+                <div class="search-icon-pink">🔍</div>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <div class="profile-menu">
+                <span class="burger">☰</span>
+                <span class="avatar">👤</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="properties-section">
+        <h2 class="title">Амстердам: Впечатления →</h2>
+        <div class="properties-grid">
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Погружение в культуру" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Погружение в культуру</h3>
+                    <p class="price">Доступно: 56</p>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Художественные мастер-классы" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Художественные мастер-классы</h3>
+                    <p class="price">Доступно: 22</p>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Впечатления на природе" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Впечатления на природе</h3>
+                    <p class="price">Доступно: 21</p>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Впечатления в музеях" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Впечатления в музеях</h3>
+                    <p class="price">Доступно: 17</p>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Гастротуры" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Гастротуры</h3>
+                    <p class="price">Доступно: 14</p>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Впечатления на тему водного спорта" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Впечатления на тему водного спорта</h3>
+                    <p class="price">Доступно: 10</p>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Дегустации" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Дегустации</h3>
+                    <p class="price">Доступно: 6</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="properties-section">
+        <h2 class="title">Амстердам: популярные Впечатления →</h2>
+        <div class="properties-grid">
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Приготовьте вкусные блюда" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Приготовьте вкусные блюда в Амстердаме с Get Baked Amsterdam</h3>
+                    <p class="price"><strong>От 3 307₽</strong> за гостя</p>
+                    <span class="rating">★ 4.98</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Круиз по каналам Амстердама" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Круиз по каналам Амстердама с закусками на борту</h3>
+                    <p class="price"><strong>От 5 087₽</strong> за гостя</p>
+                    <span class="rating">★ 4.94</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Круиз по каналам, сыр и напитки" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Круиз по каналам Амстердама, сыр и напитки</h3>
+                    <p class="price"><strong>От 2 171₽</strong> за гостя</p>
+                    <span class="rating">★ 4.86</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Круиз с местными достопримечательностями" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Круиз по каналам Амстердама с местными достопримечательностями</h3>
+                    <p class="price"><strong>От 1 272₽</strong> за гостя</p>
+                    <span class="rating">★ 4.82</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="90-минутный круиз" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">90-минутный круиз по каналам с местным гидом (всё включено)</h3>
+                    <p class="price"><strong>От 3 052₽</strong> за гостя</p>
+                    <span class="rating">★ 4.87</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Погрузитесь в виды" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Погрузитесь в виды на уютной вечерней прогулке на лодке</h3>
+                    <p class="price"><strong>От 2 544₽</strong> за гостя</p>
+                    <span class="rating">★ 4.95</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Амстердам: пешая экскурсия" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Амстердам: пешая экскурсия за чаевые</h3>
+                    <p class="price"><strong>От 424₽</strong> за гостя</p>
+                    <span class="rating">★ 4.91</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="properties-section">
+        <h2 class="title">Амстердам: что интересного сегодня →</h2>
+        <div class="properties-grid">
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Пешая экскурсия за чаевые" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Амстердам: пешая экскурсия за чаевые</h3>
+                    <p class="price"><strong>От 424₽</strong> за гостя</p>
+                    <span class="rating">★ 4.91</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Уютный круиз по Амстердаму" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Уютный круиз по Амстердаму: главные достопримечательности и скрытые жемчужины</h3>
+                    <p class="price"><strong>От 2 544₽</strong> за гостя</p>
+                    <span class="rating">★ 4.99</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Неизвестный Амстердам" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Неизвестный Амстердам</h3>
+                    <p class="price"><strong>От 255₽</strong> за гостя</p>
+                    <span class="rating">★ 4.6</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="10 вкусов Амстердама" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">10 вкусов Амстердама: гастротур по каналам и Йордану</h3>
+                    <p class="price"><strong>От 7 206₽</strong> за гостя</p>
+                    <span class="rating">★ 4.88</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Путешествие по Амстердаму" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Путешествие по Амстердаму с местным жителем</h3>
+                    <p class="price"><strong>От 2 798₽</strong> за гостя</p>
+                    <span class="rating">★ 4.86</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Круиз в Амстердаме" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Круиз в Амстердаме: как местный житель</h3>
+                    <p class="price"><strong>От 3 815₽</strong> за гостя</p>
+                    <span class="rating">★ 4.97</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="3-часовая частная экскурсия" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">3-часовая частная экскурсия по Амстердаму с местным жителем</h3>
+                    <p class="price"><strong>От 16 531₽</strong> за группу</p>
+                    <span class="rating">★ 4.94</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="properties-section">
+        <h2 class="title">Амстердам: Впечатления завтра →</h2>
+        <div class="properties-grid">
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Стендап-шоу" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Стендап-шоу на английском языке: международные выступления</h3>
+                    <p class="price"><strong>От 933₽</strong> за гостя</p>
+                    <span class="rating">★ 4.95</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Велопрогулка по голландской сельской местности" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Велопрогулка по голландской сельской местности: сыр, клоги и мельница</h3>
+                    <p class="price"><strong>От 5 850₽</strong> за гостя</p>
+                    <span class="rating">★ 4.9</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Велопрогулка по Зансе-Сканс" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Велопрогулка по Зансе-Сканс и Зандаму на электровелосипеде</h3>
+                    <p class="price"><strong>От 6 952₽</strong> за гостя</p>
+                    <span class="rating">★ 4.97</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Утренний круиз" class="property-image">
+                    <span class="guest-favorite">Популярно</span>
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Утренний круиз по каналам Амстердама</h3>
+                    <p class="price"><strong>От 3 561₽</strong> за гостя</p>
+                    <span class="rating">★ 4.95</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="3-часовая частная экскурсия" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">3-часовая частная экскурсия по Амстердаму с местным жителем</h3>
+                    <p class="price"><strong>От 16 531₽</strong> за группу</p>
+                    <span class="rating">★ 4.94</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Лучшие места Амстердама" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Лучшие места Амстердама: велопрогулка</h3>
+                    <p class="price"><strong>От 3 222₽</strong> за гостя</p>
+                    <span class="rating">★ 4.86</span>
+                </div>
+            </article>
+
+            <article class="property-card">
+                <div class="image-container">
+                    <img src="property1.jpg" alt="Художники Нидерландов" class="property-image">
+                    <button class="wishlist-btn">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
+                    <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
+                    </svg>
+                    </button>
+                </div>
+                <div class="property-info">
+                    <h3 class="property-name">Художники Нидерландов</h3>
+                    <p class="price"><strong>От 4 239₽</strong> за гостя</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <section class="inspiration-section">
+        <h3 class="footer-title">Вдохновение для будущих поездок</h3>
+
+        <div class="tabs">
+            <div class="tab-header" role="tablist">
+                <button class="tab-link active" role="tab" aria-selected="true" aria-controls="tab1">Популярные</button>
+                <button class="tab-link" role="tab" aria-selected="false" aria-controls="tab2">Искусство и культура</button>
+                <button class="tab-link" role="tab" aria-selected="false" aria-controls="tab3">Пляжи</button>
+                <button class="tab-link" role="tab" aria-selected="false" aria-controls="tab4">Горы</button>
+                <button class="tab-link" role="tab" aria-selected="false" aria-controls="tab5">Природа</button>
+                <button class="tab-link" role="tab" aria-selected="false" aria-controls="tab6">Чем заняться</button>
+            </div>
+
+            <div class="tabs-content"> 
+                <ul class="location-grid">
+                    <li class="location-item"><a href="#" class="location-link">
+                        <strong class="location-name">Париж</strong>
+                        <span class="location-description">Город любви и света</span>
+                        </a>
+                    </li>
+                    <li class="location-item"><a href="#" class="location-link">
+                        <strong class="location-name">Рим</strong>
+                        <span class="location-description">Вечный город с богатой историей</span>
+                        </a>
+                    </li>
+                    <li class="location-item"><a href="#" class="location-link">
+                        <strong class="location-name">Барселона</strong>
+                        <span class="location-description">Город Гауди и пляжей</span>
+                        </a>
+                    </li>
+                    <li class="location-item"><a href="#" class="location-link">
+                        <strong class="location-name">Амстердам</strong>
+                        <span class="location-description">Город каналов и велосипедов</span>
+                        </a>
+                    </li>
+                    <li class="location-item"><a href="#" class="location-link">
+                        <strong class="location-name">Берлин</strong>
+                        <span class="location-description">Искусство и история Европы</span>
+                        </a>
+                    </li>
+                    <li class="location-item"><a href="#" class="location-link">
+                        <strong class="location-name">Прага</strong>
+                        <span class="location-description">Сказочный город в центре Европы</span>
+                        </a>
+                    </li>
+                    <li class="location-item">
+                        <button class="show-more">Показать больше ∨</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <hr class="footer-divider">
+        <section class="footer-links-grid">
+        <div class="footer-column">
+            <h4 class="footer-column-title">Поддержка</h4>
+            <ul class="footer-list">
+                <li><a href="#" class="footer-link">Центр помощи</a></li>
+                <li><a href="#" class="footer-link">Помощь: проблема с безопасностью</a></li>
+                <li><a href="#" class="footer-link">KaysCover</a></li>
+                <li><a href="#" class="footer-link">Борьба с дискриминацией</a></li>
+                <li><a href="#" class="footer-link">Отмена в период пандемии</a></li>
+                <li><a href="#" class="footer-link">Сообщить о проблеме в районе</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4 class="footer-column-title">Прием гостей</h4>
+            <ul class="footer-list">
+                <li><a href="#" class="footer-link">Сдайте жилье на Kayscape</a></li>
+                <li><a href="#" class="footer-link">KaysCover для хозяев</a></li>
+                <li><a href="#" class="footer-link">Материалы для хозяев</a></li>
+                <li><a href="#" class="footer-link">Форум сообщества</a></li>
+                <li><a href="#" class="footer-link">Ответственный прием гостей</a></li>
+                <li><a href="#" class="footer-link">Бесплатный урок для хозяев</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4 class="footer-column-title">Kayscape</h4>
+            <ul class="footer-list">
+                <li><a href="#" class="footer-link">Пресс-центр</a></li>
+                <li><a href="#" class="footer-link">Карьера в Kayscape</a></li>
+                <li><a href="#" class="footer-link">Для инвесторов</a></li>
+                <li><a href="#" class="footer-link">Прием гостей на Kayscape.org</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <hr class="footer-divider">
+
+    <section class="footer-bottom">
+        <div class="footer-bottom-left">
+            <span class="copyright">© 2026 Kayscape, Inc.</span>
+            <span class="dot">·</span>
+            <a href="#" class="footer-bottom-link">Конфиденциальность</a>
+            <span class="dot">·</span>
+            <a href="#" class="footer-bottom-link">Условия</a>
+            <span class="dot">·</span>
+            <a href="#" class="footer-bottom-link">Реквизиты компании</a>
+        </div>
+
+        <div class="footer-bottom-right">
+            <div class="footer-controls">
+                <button class="footer-control-btn">🌐 Русский (RU)</button>
+                <button class="footer-control-btn">₽ RUB</button>
+            </div>
+            <div class="social-links">
+                <a href="#">FB</a>
+                <a href="#">VK</a>
+                <a href="#">TW</a>
+                <a href="#">IG</a>
+            </div>
+        </div>
+    </section>
+
+    </footer>
+</main>
+</body>
+</html>
