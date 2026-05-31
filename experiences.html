@@ -17,10 +17,10 @@
         <div class="header-center">
             <div class="search-bar-full">
                 <nav class="nav-center">
-                    <ul class="nav-links">
-                        <li><a href="index.html">Жилье</a></li>
-                        <li><a href="experiences.html" class="active">Впечатления</a></li>
-                        <li><a href="services.html">Услуги</a></li>
+                     <ul class="nav-links">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><a href="index.html" class="active">Жилье</a></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smile-icon lucide-smile"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg><a href="experiences.html">Впечатления</a></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-toolbox-icon lucide-toolbox"><path d="M16 12v4"/><path d="M16 6a2 2 0 0 1 1.414.586l4 4A2 2 0 0 1 22 12v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 .586-1.414l4-4A2 2 0 0 1 8 6z"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M2 14h20"/><path d="M8 12v4"/></svg><a href="services.html">Услуги</a></li>
                     </ul>
                 </nav>
                 <div class="search-bar">
@@ -36,7 +36,7 @@
                         <span class="label">Кто</span>
                         <input type="text" placeholder="Кто едет?">
                     </div>
-                    <button class="search-btn-round">🔍</button>
+                    <button class="search-btn-round"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg></button>
                 </div>
             </div>
 
@@ -50,18 +50,27 @@
             </div>
         </div>
 
-        <div class="nav-right">
-            <div class="profile-menu">
-                <span class="burger">☰</span>
-                <span class="avatar">👤</span>
-            </div>
-        </div>
+         <div class="nav-right">
+    <button class="lang-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-languages-icon lucide-languages"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg></button>
+    <div class="profile-menu" id="profile-menu">
+        <span class="burger"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+    </div>
+    </div>
+    <div class="profile-dropdown" id="profile-dropdown" style="display: none;">
+        <a href="#" class="dropdown-link">⓪ Центр помощи</a>
+        <hr style="border: none; border-top: 1px solid #ebebeb; margin: 4px 0;">
+        <a href="#" class="dropdown-link">Пригласить хозяина</a>
+        <a href="#" class="dropdown-link">Найти второго хозяина</a>
+        <hr style="border: none; border-top: 1px solid #ebebeb; margin: 4px 0;">
+        <a href="#" class="dropdown-link">Войдите или зарегистрируйтесь</a>
+    </div>
+</div>
     </div>
 </header>
 
 <main>
     <section class="properties-section">
-        <h2 class="title">Амстердам: Впечатления →</h2>
+        <h2 class="title">Алматы: Впечатления </h2>
         <div class="properties-grid">
 
             <article class="property-card">
@@ -173,7 +182,7 @@
     </section>
 
     <section class="properties-section">
-        <h2 class="title">Амстердам: популярные Впечатления →</h2>
+        <h2 class="title">Алматы: популярные Впечатления </h2>
         <div class="properties-grid">
 
             <article class="property-card">
@@ -187,7 +196,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Приготовьте вкусные блюда в Амстердаме с Get Baked Amsterdam</h3>
+                    <h3 class="property-name">Казахская кухня с шеф-поваром Айдаром</h3>
                     <p class="price"><strong>От 3 307₽</strong> за гостя</p>
                     <span class="rating">★ 4.98</span>
                 </div>
@@ -195,7 +204,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Круиз по каналам Амстердама" class="property-image">
+                    <img src="property1.jpg" alt="Круиз по каналам Шымкента" class="property-image">
                     <span class="guest-favorite">Популярно</span>
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
@@ -204,7 +213,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Круиз по каналам Амстердама с закусками на борту</h3>
+                    <h3 class="property-name">Горный трекинг в Заилийском Алатау</h3>
                     <p class="price"><strong>От 5 087₽</strong> за гостя</p>
                     <span class="rating">★ 4.94</span>
                 </div>
@@ -221,7 +230,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Круиз по каналам Амстердама, сыр и напитки</h3>
+                    <h3 class="property-name">Дегустация кумыса и баурсаков</h3>
                     <p class="price"><strong>От 2 171₽</strong> за гостя</p>
                     <span class="rating">★ 4.86</span>
                 </div>
@@ -238,7 +247,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Круиз по каналам Амстердама с местными достопримечательностями</h3>
+                    <h3 class="property-name">Пешая экскурсия по старому Алматы</h3>
                     <p class="price"><strong>От 1 272₽</strong> за гостя</p>
                     <span class="rating">★ 4.82</span>
                 </div>
@@ -255,7 +264,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">90-минутный круиз по каналам с местным гидом (всё включено)</h3>
+                    <h3 class="property-name">Конная прогулка по предгорьям (всё включено)</h3>
                     <p class="price"><strong>От 3 052₽</strong> за гостя</p>
                     <span class="rating">★ 4.87</span>
                 </div>
@@ -272,7 +281,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Погрузитесь в виды на уютной вечерней прогулке на лодке</h3>
+                    <h3 class="property-name">Вечерняя прогулка по набережной Есентай</h3>
                     <p class="price"><strong>От 2 544₽</strong> за гостя</p>
                     <span class="rating">★ 4.95</span>
                 </div>
@@ -280,7 +289,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Амстердам: пешая экскурсия" class="property-image">
+                    <img src="property1.jpg" alt="Шымкент: пешая экскурсия" class="property-image">
                     <span class="guest-favorite">Популярно</span>
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
@@ -289,7 +298,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Амстердам: пешая экскурсия за чаевые</h3>
+                    <h3 class="property-name">Алматы: пешая экскурсия за чаевые</h3>
                     <p class="price"><strong>От 424₽</strong> за гостя</p>
                     <span class="rating">★ 4.91</span>
                 </div>
@@ -299,7 +308,7 @@
     </section>
 
     <section class="properties-section">
-        <h2 class="title">Амстердам: что интересного сегодня →</h2>
+        <h2 class="title">Алматы: что интересного сегодня </h2>
         <div class="properties-grid">
 
             <article class="property-card">
@@ -313,7 +322,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Амстердам: пешая экскурсия за чаевые</h3>
+                    <h3 class="property-name">Алматы: пешая экскурсия за чаевые</h3>
                     <p class="price"><strong>От 424₽</strong> за гостя</p>
                     <span class="rating">★ 4.91</span>
                 </div>
@@ -321,7 +330,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Уютный круиз по Амстердаму" class="property-image">
+                    <img src="property1.jpg" alt="Уютный круиз по Шымкенту" class="property-image">
                     <span class="guest-favorite">Популярно</span>
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
@@ -330,7 +339,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Уютный круиз по Амстердаму: главные достопримечательности и скрытые жемчужины</h3>
+                    <h3 class="property-name">Алматы: велотур по скрытым улочкам</h3>
                     <p class="price"><strong>От 2 544₽</strong> за гостя</p>
                     <span class="rating">★ 4.99</span>
                 </div>
@@ -338,7 +347,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Неизвестный Амстердам" class="property-image">
+                    <img src="property1.jpg" alt="Неизвестный Алматы" class="property-image">
                     <span class="guest-favorite">Популярно</span>
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
@@ -347,7 +356,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Неизвестный Амстердам</h3>
+                    <h3 class="property-name">Неизвестный Алматы</h3>
                     <p class="price"><strong>От 255₽</strong> за гостя</p>
                     <span class="rating">★ 4.6</span>
                 </div>
@@ -355,7 +364,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="10 вкусов Амстердама" class="property-image">
+                    <img src="property1.jpg" alt="10 вкусов Шымкента" class="property-image">
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
                     <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
@@ -363,7 +372,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">10 вкусов Амстердама: гастротур по каналам и Йордану</h3>
+                    <h3 class="property-name">10 вкусов Алматы: гастротур по Зелёному базару</h3>
                     <p class="price"><strong>От 7 206₽</strong> за гостя</p>
                     <span class="rating">★ 4.88</span>
                 </div>
@@ -371,7 +380,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Путешествие по Амстердаму" class="property-image">
+                    <img src="property1.jpg" alt="Путешествие по Шымкенту" class="property-image">
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
                     <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
@@ -379,7 +388,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Путешествие по Амстердаму с местным жителем</h3>
+                    <h3 class="property-name">Путешествие по Алматы с местным жителем</h3>
                     <p class="price"><strong>От 2 798₽</strong> за гостя</p>
                     <span class="rating">★ 4.86</span>
                 </div>
@@ -387,7 +396,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Круиз в Амстердаме" class="property-image">
+                    <img src="property1.jpg" alt="Круиз в Шымкенте" class="property-image">
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
                     <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
@@ -395,7 +404,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Круиз в Амстердаме: как местный житель</h3>
+                    <h3 class="property-name">Поездка в горы как местный житель</h3>
                     <p class="price"><strong>От 3 815₽</strong> за гостя</p>
                     <span class="rating">★ 4.97</span>
                 </div>
@@ -411,7 +420,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">3-часовая частная экскурсия по Амстердаму с местным жителем</h3>
+                    <h3 class="property-name">3-часовая частная экскурсия по Алматы</h3>
                     <p class="price"><strong>От 16 531₽</strong> за группу</p>
                     <span class="rating">★ 4.94</span>
                 </div>
@@ -421,7 +430,7 @@
     </section>
 
     <section class="properties-section">
-        <h2 class="title">Амстердам: Впечатления завтра →</h2>
+        <h2 class="title">Алматы: Впечатления завтра</h2>
         <div class="properties-grid">
 
             <article class="property-card">
@@ -434,7 +443,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Стендап-шоу на английском языке: международные выступления</h3>
+                    <h3 class="property-name">Вечер казахской музыки и домбры</h3>
                     <p class="price"><strong>От 933₽</strong> за гостя</p>
                     <span class="rating">★ 4.95</span>
                 </div>
@@ -451,7 +460,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Велопрогулка по голландской сельской местности: сыр, клоги и мельница</h3>
+                    <h3 class="property-name">Поход к водопадам Большого Алматинского ущелья</h3>
                     <p class="price"><strong>От 5 850₽</strong> за гостя</p>
                     <span class="rating">★ 4.9</span>
                 </div>
@@ -468,7 +477,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Велопрогулка по Зансе-Сканс и Зандаму на электровелосипеде</h3>
+                    <h3 class="property-name">Велопрогулка по Медеу и Чимбулаку</h3>
                     <p class="price"><strong>От 6 952₽</strong> за гостя</p>
                     <span class="rating">★ 4.97</span>
                 </div>
@@ -485,7 +494,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Утренний круиз по каналам Амстердама</h3>
+                    <h3 class="property-name">Утренняя йога на Кок-Тобе</h3>
                     <p class="price"><strong>От 3 561₽</strong> за гостя</p>
                     <span class="rating">★ 4.95</span>
                 </div>
@@ -501,7 +510,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">3-часовая частная экскурсия по Амстердаму с местным жителем</h3>
+                    <h3 class="property-name">3-часовая частная экскурсия по Алматы</h3>
                     <p class="price"><strong>От 16 531₽</strong> за группу</p>
                     <span class="rating">★ 4.94</span>
                 </div>
@@ -509,7 +518,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Лучшие места Амстердама" class="property-image">
+                    <img src="property1.jpg" alt="Лучшие места Шымкента" class="property-image">
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
                     <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
@@ -517,7 +526,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Лучшие места Амстердама: велопрогулка</h3>
+                    <h3 class="property-name">Лучшие места Алматы: велопрогулка</h3>
                     <p class="price"><strong>От 3 222₽</strong> за гостя</p>
                     <span class="rating">★ 4.86</span>
                 </div>
@@ -525,7 +534,7 @@
 
             <article class="property-card">
                 <div class="image-container">
-                    <img src="property1.jpg" alt="Художники Нидерландов" class="property-image">
+                    <img src="property1.jpg" alt="Современное искусство Казахстана" class="property-image">
                     <button class="wishlist-btn">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: white; stroke-width: 2; overflow: visible;">
                     <path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95s-3.158-2.05-4.95-2.05c-1.792 0-3.583.683-4.95 2.05l-2.05 2.05-2.05-2.05c-1.367-1.367-3.158-2.05-4.95-2.05-1.791 0-3.583.683-4.95 2.05s-2.05 3.158-2.05 4.95c0 7 7 12.267 14 17z"></path>
@@ -533,7 +542,7 @@
                     </button>
                 </div>
                 <div class="property-info">
-                    <h3 class="property-name">Художники Нидерландов</h3>
+                    <h3 class="property-name">Современное искусство Казахстана</h3>
                     <p class="price"><strong>От 4 239₽</strong> за гостя</p>
                 </div>
             </article>
@@ -558,37 +567,37 @@
             <div class="tabs-content"> 
                 <ul class="location-grid">
                     <li class="location-item"><a href="#" class="location-link">
-                        <strong class="location-name">Париж</strong>
-                        <span class="location-description">Город любви и света</span>
+                        <strong class="location-name">Алматы</strong>
+                        <span class="location-description">Южная столица Казахстана</span>
                         </a>
                     </li>
                     <li class="location-item"><a href="#" class="location-link">
-                        <strong class="location-name">Рим</strong>
-                        <span class="location-description">Вечный город с богатой историей</span>
+                        <strong class="location-name">Астана</strong>
+                        <span class="location-description">Столица и деловой центр</span>
                         </a>
                     </li>
                     <li class="location-item"><a href="#" class="location-link">
-                        <strong class="location-name">Барселона</strong>
-                        <span class="location-description">Город Гауди и пляжей</span>
+                        <strong class="location-name">Боровое</strong>
+                        <span class="location-description">Природный курорт</span>
                         </a>
                     </li>
                     <li class="location-item"><a href="#" class="location-link">
-                        <strong class="location-name">Амстердам</strong>
-                        <span class="location-description">Город каналов и велосипедов</span>
+                        <strong class="location-name">Шымкент</strong>
+                        <span class="location-description">Третий город страны</span>
                         </a>
                     </li>
                     <li class="location-item"><a href="#" class="location-link">
-                        <strong class="location-name">Берлин</strong>
-                        <span class="location-description">Искусство и история Европы</span>
+                        <strong class="location-name">Актау</strong>
+                        <span class="location-description">Город у Каспийского моря</span>
                         </a>
                     </li>
                     <li class="location-item"><a href="#" class="location-link">
-                        <strong class="location-name">Прага</strong>
-                        <span class="location-description">Сказочный город в центре Европы</span>
+                        <strong class="location-name">Туркестан</strong>
+                        <span class="location-description">Древний духовный центр</span>
                         </a>
                     </li>
                     <li class="location-item">
-                        <button class="show-more">Показать больше ∨</button>
+                        <button class="show-more">Показать больше</button>
                     </li>
                 </ul>
             </div>
